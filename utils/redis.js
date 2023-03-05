@@ -68,8 +68,8 @@ class RedisClient {
 				} else {
 					resolve(reply);
 				}
-			})
-		})
+			});
+		});
 	}
 
 	/**
@@ -85,7 +85,7 @@ class RedisClient {
 				}
 				return resolve(reply);
 			});
-		})
+		});
 	}
 }
 
